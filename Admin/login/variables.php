@@ -1,0 +1,4 @@
+<?php
+$errMsg="";
+$email="";
+?>
