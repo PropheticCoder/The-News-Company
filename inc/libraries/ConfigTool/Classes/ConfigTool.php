@@ -9,7 +9,7 @@ namespace libraries;
  */
 class ConfigTool{
     protected static function extract(string $config,string $setting){
-        $dir= $_SERVER['DOCUMENT_ROOT']."/News-Company";
+        $dir= $_SERVER['DOCUMENT_ROOT']."/The-News-Company";
         return parse_ini_file($dir."/inc/libraries/ConfigTool/Configs/".$config.".ini")[$setting];
     }
 }
